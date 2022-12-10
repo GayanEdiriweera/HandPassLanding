@@ -60,10 +60,21 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      align-items: center;
     }
     .socialLink {
-      width: 3rem;
+      width: 2rem;
       padding: 0.25rem;
+      display: block;
+    }
+    #copyright {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0.5rem;
+      white-space: normal;
+      text-align: center;
+      font-size: medium;
     }
   </style>
 </head>
@@ -80,15 +91,25 @@
       <img class="storeLink" src="assets/images/PlayStore.png"
     /></a>
   </div>
-  <div id="socials">
-    <a href="https://twitter.com/HandPassApp"
-      ><img class="socialLink" src="assets/images/Twitter.png"
-    /></a>
-    <a href="https://www.reddit.com/r/HandPassApp/"
-      ><img class="socialLink" src="assets/images/Reddit.png"
-    /></a>
-    <a href="mailto:gayan.ediriweera@gmail.com">
-      <img class="socialLink" src="assets/images/Email.png" />
-    </a>
+
+  <div id="footer">
+    <div id="socials">
+      <a href="https://twitter.com/HandPassApp"
+        ><img class="socialLink" src="assets/images/Twitter.png"
+      /></a>
+      <a href="https://www.reddit.com/r/HandPassApp"
+        ><img class="socialLink" src="assets/images/Reddit.png"
+      /></a>
+      <a href="mailto:gayan.ediriweera@gmail.com">
+        <img class="socialLink" src="assets/images/Email.png" />
+      </a>
+      <a href="https://github.com/GayanEdiriweera/HandPass"
+        ><img class="socialLink" src="assets/images/GitHub.png"
+      /></a>
+    </div>
+    <div id="copyright">
+      Hand Pass is free and open source software released under the MIT License.
+      Copyright &copy; 2022 Gayan Ediriweera
+    </div>
   </div>
 </body>
